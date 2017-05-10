@@ -2,7 +2,7 @@
 splittin pennies!
 
 ## Synopsis
-The purpose of this application is to even divide a total across a number of people.... and to get me a job at Apto =)
+The purpose of this application is to even divide a total across a number of people.... 
 
 ## Installation
 `npm install`
