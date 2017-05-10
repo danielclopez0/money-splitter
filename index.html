@@ -9,7 +9,13 @@
         <div class="navbar navbar-default">
             <h2 class="navbar-header container-fluid text-center">Welcome to Penny Rounder!</h2>
         </div>
-
+        <h4>Please enter the desired total you would like to split. Number of splits is optional (defaults to 3).</h4>
+            <label for="total">Total:</label><input type="text" class="form-control" id="total">
+            <label for="amount">Number of splits (optional):</label><input type="text" class="form-control" id="amount">
+        </br>
+        <button class="btn btn-primary" id="compute" type="button" data-toggle="dropdown">Compute!</button>
+        </br>
+        <div id='results'>
     </div>
 
     <script>window.$ = window.jQuery = require('jquery');</script>
